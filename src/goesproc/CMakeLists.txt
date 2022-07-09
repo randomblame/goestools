@@ -30,7 +30,7 @@ endif()
 pkg_check_modules(PROJ proj)
 
 if(PROJ_FOUND)
-  list(APPEND GOESPROC_SRCS proj.cc map_drawer.cc)
+  list(APPEND GOESPROC_SRCS proj_v8.cc map_drawer.cc)
 endif()
 
 add_executable(goesproc ${GOESPROC_SRCS})
