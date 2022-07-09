@@ -6,8 +6,7 @@
 #define PROJ_COORD_FACTOR .017453292519943296
 // Assume proj continues to ship with a backwards compatibility layer.
 // See for a migration guide https://proj.org/development/migration.html.
-#define PROJ_COORD_FACTOR DEG_TO_RAD
-#define ACCEPT_USE_OF_DEPRECATED_PROJ_API_H 1
+
 #endif
 
 #include <map>
